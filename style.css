@@ -1,0 +1,206 @@
+body
+{
+  background-color:#ffffff;
+  text:#ff0000; 
+  link:#ff0000; 
+  vlink:#ff0000;
+  alink:#ff0000;
+  border-width:0px; 
+  margin: 0px 0px 0px 0px;
+}
+
+a
+{
+    text-decoration: none;
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:13px;
+    color:#666666;
+}
+
+a:hover
+{
+    color:#dd0000;
+}
+
+img
+{
+    border:none;
+}
+
+.header
+{
+    margin:auto;
+    padding-bottom:15px;
+    padding-top:40px;
+    text-align:center;
+}
+
+.header img
+{
+    padding-bottom:10px;
+    height:34px;
+    width:444px;
+}
+
+.header a
+{
+    text-align:center;
+    font-family:arial;
+    font-size:11px;
+    font-weight:normal;
+}
+
+.images
+{
+    padding-top:0px;
+    text-align:center;
+    max-height:92%;
+    min-height:92%;
+    width:auto;
+}
+
+.images table
+{
+    margin:auto;
+    text-align:center;
+}
+
+.images img
+{
+    text-align:center;
+    max-height:92%;
+    padding-bottom:4px;
+    width:360px;
+}
+
+.images td
+{
+    width:360px;
+    vertical-align:top;
+}
+
+.shoot
+{
+    padding-top:25px;
+    text-align:center;
+    width:auto;
+    max-height:92%;
+    min-height:92%;
+}
+
+.shoot img
+{
+    padding-bottom:75px;
+    height:720px;
+    width:auto;
+    text-align:center;
+    max-height:92%;
+}
+
+
+/* iPhone */
+@media screen and (max-device-width: 480px)
+{
+    .header img
+    {
+       padding-bottom:22px;
+       height:auto;
+       width:95%;
+       border:none;
+    }
+   
+    .header a
+    {
+        font-size:48px;
+    }
+    
+    .images
+    {
+        text-align:center;
+        margin:auto;
+        padding-left:0px;
+        padding-right:0px;
+        padding-top:10px;
+    }
+    
+    .images img
+    {
+        padding-bottom:0px;
+        width:100%;
+        padding-bottom:4px;
+        max-height:150%;
+    }
+    
+    .images td
+    {
+        margin:auto;
+        text-align:center;
+        padding-bottom:4px;
+    }
+    
+    .shoot
+    {
+        margin:auto;
+        text-align:center;
+        padding-top:40px;
+        padding-left:0px;
+        padding-right:0px;
+        
+    }
+    
+    .shoot img
+    {
+        padding-bottom:60px;
+        height:auto;
+        max-height:150%;
+        width:100%;
+    }
+}
+
+
+
+/* iPad */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px)
+{
+    .header img
+    {
+        padding-bottom:22px;
+        height:auto;
+        width:70%;
+        border:none;
+    }
+    
+    .header a
+    {
+        font-size:30px;
+    }
+    
+    .images
+    {
+        text-align:center;
+        margin:auto;
+        padding-left:0px;
+        padding-right:0px;
+        padding-top:10px;
+    }
+
+    .images img
+    {
+        padding-bottom:0px;
+        padding-bottom:4px;
+        max-height:150%;
+        width:100%;
+    }
+
+    .images td
+    {
+        margin:auto;
+        text-align:center;
+        padding-bottom:4px;
+    }
+}
+
+
+
+
